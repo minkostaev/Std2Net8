@@ -1,52 +1,64 @@
-# Prerequisites
-*.d
+# Build Folders
+bin/
+obj/
 
-# Object files
-*.o
-*.ko
-*.obj
-*.elf
+# Rider
+.idea/
+.idea_modules/
 
-# Linker output
-*.ilk
-*.map
-*.exp
+# User-specific files
+*.suo
+*.user
+*.rsuser
+*.userprefs
+*.userosscache
+*.sln.docstates
 
-# Precompiled Headers
-*.gch
-*.pch
-
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
-
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
-
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
-
-# Debug files
-*.dSYM/
-*.su
-*.idb
+# Visual Studio
+*.vs/
+*.dbmdl
+*.dbproj.schemaview
+*.jfm
+*.pdb
+*.dbmdl
+*.dbproj.schemaview
 *.pdb
 
-# Kernel Module Compile Results
-*.mod*
-*.cmd
-.tmp_versions/
-modules.order
-Module.symvers
-Mkfile.old
-dkms.conf
+# Visual Studio Code
+.vscode/
+
+# NuGet Packages
+*.nupkg
+*.nuget
+*.snupkg
+packages/
+*.nuspec
+**/packages/*
+!**/packages/build/
+!**/packages/repositories.config
+
+# DotNet
+project.lock.json
+project.json
+*.DotSettings
+*.DotSettings.user
+
+# Build results
+[Dd]ebug/
+[Rr]elease/
+[Rr]eleases/
+
+# Generated test files
+TestResults/
+
+# Build directories
+artifacts/
+
+# Others
+*.cache
+*.tmp
+*.temp
+*.log
+*.swp
+*.swo
+*.bak
